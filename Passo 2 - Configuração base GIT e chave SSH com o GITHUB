@@ -1,4 +1,20 @@
-Passo 2 - Criando chave SSH para utilizar no GITHUB
+Antes, vamos fazer a configuração basica do GIT. Lembrando que o GIT ja vem instalado no Ubuntu.
+
+p590589@vaio-notebook:~/.ssh$ git config --global core.editor "code --wait"
+p590589@vaio-notebook:~/.ssh$ git config --global core.editor "code --wait"
+p590589@vaio-notebook:~/.ssh$ git config --global user.name "Cledson Parente"
+p590589@vaio-notebook:~/.ssh$ git config --global user.email "cledson.spfc@gmail.com"
+p590589@vaio-notebook:~/.ssh$ ssh -T git@github.com
+Hi cledsonmp! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+
+
+
+Criando chave SSH para utilizar no GITHUB
+
+
+
 
 Verificar se o SSH-AGENT está em execução, depois gerar o par de chaves publica e privada, e copiar a chave privada para a console do github para criar a SSH-KEY do GIT.
 
