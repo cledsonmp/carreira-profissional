@@ -1,0 +1,9 @@
+Executar o comando abaixo, disponível no repositório oficial do NVM, para fazer o download e execução do script de instalação.
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+Verificar a Instalação
+Executar o comando "command -v nvm" a fim de verificar se a instalação foi feita com sucesso. Caso o comando não retorne nvm, como na imagem abaixo, fechar e abrir o terminal novamente.
+
+PS C:\Users\cleds> wsl
+p590589@vaio-notebook:/mnt/c/Users/cleds$ command -v nvm
+nvm
