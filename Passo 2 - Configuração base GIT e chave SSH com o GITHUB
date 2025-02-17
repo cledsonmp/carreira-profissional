@@ -1,7 +1,6 @@
 Antes, vamos fazer a configuração basica do GIT. Lembrando que o GIT ja vem instalado no Ubuntu.
 
 p590589@vaio-notebook:~/.ssh$ git config --global core.editor "code --wait"
-p590589@vaio-notebook:~/.ssh$ git config --global core.editor "code --wait"
 p590589@vaio-notebook:~/.ssh$ git config --global user.name "Cledson Parente"
 p590589@vaio-notebook:~/.ssh$ git config --global user.email "cledson.spfc@gmail.com"
 p590589@vaio-notebook:~/.ssh$ ssh -T git@github.com
