@@ -1,0 +1,27 @@
+Passo 1: Instalar e Configurar o WSL
+Abrir o PowerShell como Administrador e executar:
+
+PS C:\WINDOWS\system32> wsl --list --online
+Veja a seguir uma lista de distribuições válidas que podem ser instaladas.
+Instale usando 'wsl.exe --install <Distro>'.
+
+NAME                            FRIENDLY NAME
+SUSE-Linux-Enterprise-15-SP5    SUSE Linux Enterprise 15 SP5
+SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
+Ubuntu                          Ubuntu
+Ubuntu-24.04                    Ubuntu 24.04 LTS
+kali-linux                      Kali Linux Rolling
+openSUSE-Tumbleweed             openSUSE Tumbleweed
+openSUSE-Leap-15.6              openSUSE Leap 15.6
+Debian                          Debian GNU/Linux
+Ubuntu-18.04                    Ubuntu 18.04 LTS
+Ubuntu-20.04                    Ubuntu 20.04 LTS
+Ubuntu-22.04                    Ubuntu 22.04 LTS
+OracleLinux_7_9                 Oracle Linux 7.9
+OracleLinux_8_7                 Oracle Linux 8.7
+OracleLinux_9_1                 Oracle Linux 9.1
+
+Só escolher a distribuição e instalar. Ao final se quiser deixar como default --save-default
+PS C:\WINDOWS\system32> wsl --install Ubuntu-24.04
+Baixando: Ubuntu 24.04 LTS
+[                           0,3%                           ]
